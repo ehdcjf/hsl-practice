@@ -1,2 +1,4 @@
 /node_modules
-files/*
+files/*.m3u8
+files/*.mp4
+files/*.ts
