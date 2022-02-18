@@ -49,9 +49,11 @@ new hls(server, {
 
 
 
-/*
+/* 
+//
 ffmpeg.setFfmpegPath(ffmpegInstaller.path);
 
+//
 ffmpeg(`files/test.mp4`,{timeout:432000}).addOptions([
     '-profile:v baseline',
     '-level 3.0',
@@ -63,5 +65,8 @@ ffmpeg(`files/test.mp4`,{timeout:432000}).addOptions([
     console.log('end');
 }).run();
 
+//3. 끝났으면, files안에 m3u8이랑,.ts파일 생성된거 확인하고 주석처리 
+// 따라 함수만들어서 라우팅해도됨. 
+//4. kill.ejs로 이동
 */
 
